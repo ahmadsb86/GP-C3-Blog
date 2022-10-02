@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/logo2.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Yaksaan</title>
+</head>
+<body class="h-screen w-screen">
+  
+
+  <div class=" w-full shadow-2xl"> 
+    <a href="" class="text-neutral-800 poppins mx-6 my-3 w-32 mr-auto absolute hidden md:block"><img src="assets/logo3.png" alt="" class="w-24 h-auto"></a>
+    <div class="flex justify-center items-center">
+      <a href="/" class="text-neutral-800 poppins mx-6 my-6 text-sm md:text-base">Home</a>
+      <a href="blog" class="text-amber-400 underline underline-offset-4 poppins mx-6 my-6 text-sm md:text-base">Blog</a>
+      <a href="/rss" class="text-neutral-800 poppins mx-6 my-6 text-sm md:text-base">RSS</a>
+    </div>
+  </div>
+
+  <div class="w-screen">
+    <h1 class="text-4xl md:text-6xl font-bold serif text-center mt-24 mb-4">Create Blog Post</h1>
+    <p class="text-sm md:text-lg serif text-center mb-36 italic ">Changes will not be saved, write down the post in some text editor before porting to markdown.</p>
+    <div class="flex flex-col justify-center items-center w-screen">
+      <div class="w-1/2 mb-8">
+        <h2 class="poppins mb-2 text-xl">| Title</h2>
+        <input type="text" id="title" class="bg-neutral-100 shadow-md outline-orange-300 selection:outline rounded-md mb-6 w-screeen h-12 text-black py-4 px-6 poppins w-full">
+      </div>
+      <div class="w-1/2 mb-8">
+        <h2 class="poppins mb-2 text-xl">| Subtitle</h2>
+        <input type="text" id="subtitle" class="bg-neutral-100 shadow-md outline-orange-300 selection:outline rounded-md mb-6 w-screeen h-12 text-black py-4 px-6 poppins w-full">
+      </div>
+      <div class="w-1/2 mb-8">
+        <h2 class="poppins mb-2 text-xl">| Date</h2>
+        <input type="text" id="date" class="bg-neutral-100 shadow-md outline-orange-300 selection:outline rounded-md mb-6 w-screeen h-12 text-black py-4 px-6 poppins w-full">
+      </div>
+      <div class="w-1/2 mb-8">
+        <h2 class="poppins mb-2 text-xl">| Content</h2>
+        <input type="text" id="content" class="bg-neutral-100 shadow-md outline-orange-300 selection:outline rounded-md mb-6 w-screeen h-96 text-black py-4 px-6 poppins w-full">
+      </div>
+      <button class="rounded-md shadow bg-orange-300 text-white px-12 py-4 mb-32" id="btn">Create Post</button>
+    </div>
+  </div>
+  
+
+</body>
+</html>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="script3.js"></script>

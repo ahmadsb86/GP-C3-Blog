@@ -1,0 +1,45 @@
+body{
+  background-color: #E6E3DA;
+}
+
+#content{
+  text-indent: 3rem;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(assets/reg.ttf);
+}
+
+@font-face {
+  font-family: urdu;
+  src: url(assets/urdu.ttf);
+}
+
+@font-face {
+  font-family: serif;
+  src: url(assets/serif.ttf);
+}
+
+.poppins{
+  font-family: poppins;
+}
+.urdu{
+  font-family: urdu;
+}
+.serif{
+  font-family: serif;
+}
+
+.raise{
+  transition: transform ease 300ms;
+}
+.raise:hover{
+  transform: translate(0, -10px);
+
+}
+
+.bg-G{
+  /* background-color: #e9dbce; */
+  background-color: #fff;
+}
